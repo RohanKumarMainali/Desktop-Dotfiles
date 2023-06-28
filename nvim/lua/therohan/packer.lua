@@ -96,7 +96,8 @@ return require("packer").startup(function(use)
   requires = {
     'nvim-tree/nvim-web-devicons', -- optional
   },
-  use ('numToStr/Comment.nvim')
+  use ('numToStr/Comment.nvim'),
+  use ('kevinhwang91/rnvimr')
 }
 
 
